@@ -1,7 +1,23 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main(args : Array<String>) {
+fun main(args: Array<String>) {
 
+    println("Hello Wolrd!")
+    val welcomeMessage = "Welcome to Kotlin"
+    println(welcomeMessage)
+
+    val pi = 3.14 //pi degeri sabittir
+    println(pi)
+
+    var counter = 10
+    println(counter)
+    counter = 15
+    println("New value --> $counter")
+
+    var appName = "Kotlin101"
+    println(appName)
+    appName = "Kotlin202"
+    println(appName)
 }
 
 /**
@@ -28,7 +44,7 @@ fun main(args : Array<String>) {
  */
 
 /**
-* var (Mutable - Degistirilebilir Degiskenler)
+ * var (Mutable - Degistirilebilir Degiskenler)
  *
  * Degeri degisebilir. Bir kez kullandiktan sonra farkli degerler atanabilir.
  * Kullanim acisindan daha esnek olsa da, gereksiz var kulannimlari kodun karmasikligini arttirabilir.
@@ -40,8 +56,8 @@ fun main(args : Array<String>) {
  *  *
  *  *     counter = 15
  *   println("New value --> $counter")
-*  var appName = "Kotlin101"
+ *  var appName = "Kotlin101"
  *  *     println(appName)
  *  *     appName = "Kotlin202"
  *  *     println(appName)
-* */
+ * */
